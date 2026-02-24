@@ -651,6 +651,8 @@ def analyze(row_clicks, btn_clicks, ids, input_value):
     ])
 
 
+server = app.server
+
 if __name__ == "__main__":
     if not os.environ.get("GROQ_API_KEY"):
         print("⚠  GROQ_API_KEY manquante !")
